@@ -1,44 +1,32 @@
-# Lekhana A L - Portfolio
+# Portfolio - Lekhana A L
 
-A modern, responsive portfolio website showcasing my projects and skills in Full-Stack Development, AI/ML, and Backend Engineering.
+My personal portfolio website built with React, TypeScript, and Tailwind CSS.
 
-## 🚀 Live Demo
+## About
 
-Visit my portfolio: [https://lekhanaal1.github.io/Portfolio](https://lekhanaal1.github.io/Portfolio)
+I'm a software engineer based in Mysuru, India. I build full-stack applications, backend systems, and AI-powered solutions. This portfolio showcases my projects and skills.
 
-## ✨ Features
-
-- **Modern Design**: Clean, professional design with glassmorphism effects
-- **Dark/Light Mode**: Toggle between dark and light themes
-- **Responsive**: Fully responsive design that works on all devices
-- **Interactive Projects**: Showcase of my diverse projects with detailed information
-- **Smooth Animations**: Beautiful hover effects and transitions
-- **SEO Optimized**: Built with best practices for search engine optimization
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 19, TypeScript, Tailwind CSS
 - **Icons**: Heroicons
 - **Build Tool**: Vite
 - **Deployment**: GitHub Pages
 
-## 📁 Project Structure
+## Projects
 
-```
-portfolio/
-├── src/
-│   ├── App.tsx          # Main application component
-│   ├── index.css        # Global styles
-│   └── assets/          # Images and static assets
-├── public/              # Public assets
-├── .github/workflows/   # GitHub Actions for deployment
-└── package.json         # Dependencies and scripts
-```
+### YAS Connect
+A community platform for devotees with interactive mapping and real-time features. Built with Next.js, TypeScript, Supabase, and Mapbox.
 
-## 🚀 Getting Started
+### Dev Pulse
+A microservices-based dashboard for tracking developer workflows. Built with Go, MongoDB, PostgreSQL, and Docker.
+
+### Travel Chatbot
+An intelligent chatbot for travel planning using AI techniques. Built with FastAPI, GPT-3/4, LangChain, and ChromaDB.
+
+## Getting Started
 
 ### Prerequisites
-
 - Node.js (version 18 or higher)
 - npm or yarn
 
@@ -62,80 +50,23 @@ npm run dev
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 🚀 Deployment
+## Deployment
 
-### GitHub Pages (Recommended)
-
-This project is configured for automatic deployment to GitHub Pages.
-
-#### Automatic Deployment (GitHub Actions)
-
-1. Push your code to the `main` branch
-2. GitHub Actions will automatically build and deploy your site
-3. Your site will be available at: `https://lekhanaal1.github.io/Portfolio`
-
-#### Manual Deployment
+### GitHub Pages
 
 1. Build the project:
 ```bash
 npm run build
 ```
 
-2. Deploy to GitHub Pages:
+2. Deploy:
 ```bash
 npm run deploy
 ```
 
-### Other Deployment Options
+The site will be available at: `https://lekhanaal1.github.io/Portfolio`
 
-#### Vercel
-1. Connect your GitHub repository to Vercel
-2. Vercel will automatically detect it's a Vite project
-3. Deploy with default settings
-
-#### Netlify
-1. Connect your GitHub repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `dist`
-4. Deploy
-
-## 🔧 Configuration
-
-### Customizing the Base Path
-
-If your repository name is different, update the base path in `vite.config.ts`:
-
-```typescript
-export default defineConfig({
-  plugins: [react()],
-  base: '/your-repo-name/', // Update this line
-})
-```
-
-### Updating Project Information
-
-Edit the project data in `src/App.tsx`:
-
-```typescript
-const projects = [
-  {
-    id: 'your-project',
-    title: 'Your Project Name',
-    role: 'Your Role',
-    // ... other project details
-  }
-];
-```
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
+## Contact
 
 - **Email**: lekhanaal@gmail.com
 - **LinkedIn**: [lekhana-a-1-6161b722a](https://linkedin.com/in/lekhana-a-1-6161b722a)
@@ -144,4 +75,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-Built with ❤️ by Lekhana A L
+Built with React, TypeScript, and Tailwind CSS

@@ -11,24 +11,24 @@ import {
 } from '@heroicons/react/24/outline';
 import avatar from './assets/react.svg';
 
-// Project data from your resume
+// My projects
 const projects = [
   {
     id: 'yas-connect',
     title: 'YAS Connect',
     role: 'Full Stack Developer',
     period: 'June 2025 – Present',
-    type: 'AI-Native Community Platform',
-    description: 'Architected and delivered an AI-native community platform connecting devotees globally with interactive mapping and real-time features.',
+    type: 'Community Platform',
+    description: 'Built a community platform for devotees with interactive mapping and real-time features. Focused on creating a seamless user experience with privacy-first design.',
     highlights: [
-      'Built with Next.js, TypeScript, Tailwind CSS, Supabase, and Mapbox',
-      'Implemented global interactive devotee map with geolocation and privacy enhancements',
-      'Resolved API rate limits and geolocation errors with caching and upsert logic',
-      'Rapid MVP delivery (1 week) with iterative improvements based on analytics',
-      'Leveraged ChatGPT and Cursor for code generation and architecture planning'
+      'Developed with Next.js, TypeScript, Tailwind CSS, Supabase, and Mapbox',
+      'Implemented interactive devotee map with geolocation and privacy controls',
+      'Solved API rate limiting issues with smart caching and upsert logic',
+      'Delivered MVP in 1 week with continuous improvements based on user feedback',
+      'Used AI tools (ChatGPT, Cursor) for code generation and debugging'
     ],
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase', 'Mapbox', 'OpenStreetMap'],
-    color: 'from-blue-500 to-purple-600',
+    color: 'from-blue-500 to-indigo-600',
     icon: GlobeAltIcon
   },
   {
@@ -36,32 +36,32 @@ const projects = [
     title: 'Dev Pulse',
     role: 'Backend Engineer',
     period: 'June 2025 – Present',
-    type: 'Developer Workflow Dashboard',
-    description: 'Developed microservices-based dashboard for developer workflow tracking with comprehensive observability and performance optimization.',
+    type: 'Developer Dashboard',
+    description: 'Created a microservices-based dashboard for tracking developer workflows. Built with scalability and observability in mind.',
     highlights: [
-      'Built microservices architecture using Go, MongoDB, PostgreSQL, Docker',
-      'Designed modular API gateway with NATS messaging system',
-      'Integrated Prometheus and Grafana for comprehensive observability',
-      'Implemented indexing and connection pooling for optimized performance',
-      'Adopted AI tools for scaffolding, stack decisions, and critical debugging'
+      'Architected microservices using Go, MongoDB, PostgreSQL, Docker',
+      'Designed API gateway with NATS messaging for reliable communication',
+      'Integrated Prometheus and Grafana for monitoring and alerting',
+      'Optimized performance with database indexing and connection pooling',
+      'Leveraged AI tools for architecture decisions and problem-solving'
     ],
     tech: ['Go', 'MongoDB', 'PostgreSQL', 'Docker', 'NATS', 'Prometheus', 'Grafana', 'Helm'],
-    color: 'from-green-500 to-teal-600',
+    color: 'from-emerald-500 to-teal-600',
     icon: ServerIcon
   },
   {
     id: 'travel-chatbot',
-    title: 'Travel Chatbot with Agentic AI',
+    title: 'Travel Chatbot',
     role: 'AI Engineer',
     period: '2025',
-    type: 'AI-Powered Travel Assistant',
-    description: 'Built an AI-native chatbot for intelligent travel planning with autonomous research capabilities and robust RAG pipelines.',
+    type: 'AI Travel Assistant',
+    description: 'Developed an intelligent chatbot for travel planning using advanced AI techniques. Focused on creating autonomous research capabilities.',
     highlights: [
-      'Developed using FastAPI, GPT-3/4, LangChain, ChromaDB, FAISS',
-      'Created intelligent itinerary creation and information retrieval system',
-      'Designed agentic workflows and autonomous research agents',
-      'Implemented robust RAG (Retrieval-Augmented Generation) pipelines',
-      'Built scalable architecture for handling complex travel queries'
+      'Built with FastAPI, GPT-3/4, LangChain, ChromaDB, FAISS',
+      'Created intelligent itinerary planning and information retrieval system',
+      'Implemented agentic workflows for autonomous research',
+      'Built robust RAG pipelines for accurate information retrieval',
+      'Designed scalable architecture for complex travel queries'
     ],
     tech: ['FastAPI', 'GPT-3/4', 'LangChain', 'ChromaDB', 'FAISS', 'Python'],
     color: 'from-purple-500 to-pink-600',
@@ -106,7 +106,7 @@ const education = [
 const achievements = [
   { label: 'Google Girl Hackathon 2024', color: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200' },
   { label: 'Chief Coordinator, Linux Club', color: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200' },
-  { label: '8+ Projects Completed', color: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200' },
+  { label: '8+ Projects Built', color: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200' },
 ];
 
 function App() {
@@ -164,7 +164,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h2 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <h2 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
                 Lekhana A L
               </h2>
             </div>
@@ -210,15 +210,15 @@ function App() {
             <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-blue-300 dark:border-blue-700 shadow-2xl mb-8 bg-white/60 dark:bg-neutral-900/60">
               <img src={avatar} alt="Lekhana A L" className="w-full h-full object-cover" />
             </div>
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-gradient-to-r from-neutral-800 via-blue-700 to-purple-800 dark:from-neutral-100 dark:via-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-gradient-to-r from-neutral-800 via-blue-700 to-indigo-800 dark:from-neutral-100 dark:via-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">
               Lekhana A L
             </h1>
             <p className="text-xl md:text-2xl font-medium text-neutral-600 dark:text-neutral-300 mb-4">
-              Software Engineer & AI Enthusiast
+              Software Engineer
             </p>
             <p className="text-lg text-neutral-500 dark:text-neutral-400 max-w-3xl mx-auto mb-8">
-              Passionate about building impactful technology solutions. Experienced in Full-Stack Development, 
-              AI/ML, Cloud Computing, and DevOps. Always learning, always innovating.
+              I build software that solves real problems. Currently working on full-stack applications, 
+              backend systems, and AI-powered solutions. Always learning new technologies.
             </p>
             <div className="flex flex-wrap gap-3 justify-center mb-8">
               {achievements.map((achievement, idx) => (
@@ -239,11 +239,11 @@ function App() {
       <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-neutral-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Featured Projects
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              Projects
             </h2>
             <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto">
-              Showcasing my diverse expertise across Full-Stack Development, AI/ML, and Backend Engineering
+              Here are some projects I've worked on recently
             </p>
           </div>
           
@@ -254,7 +254,7 @@ function App() {
               
               return (
                 <div key={project.id} className={`flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12`}>
-                  {/* Project Image/Visual */}
+                  {/* Project Visual */}
                   <div className={`flex-1 ${isEven ? 'lg:order-1' : 'lg:order-2'}`}>
                     <div className={`relative group cursor-pointer rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br ${project.color} p-1`}>
                       <div className="bg-white dark:bg-neutral-900 rounded-xl p-8 h-80 flex items-center justify-center">
@@ -264,7 +264,7 @@ function App() {
                           <p className="text-neutral-600 dark:text-neutral-300">{project.type}</p>
                         </div>
                       </div>
-                      <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-indigo-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                         <div className="flex gap-4">
                           <button className="p-3 bg-white/20 backdrop-blur rounded-full hover:bg-white/30 transition">
                             <EyeIcon className="w-6 h-6 text-white" />
@@ -296,7 +296,7 @@ function App() {
                       </div>
 
                       <div>
-                        <h4 className="text-lg font-semibold mb-3">Key Achievements</h4>
+                        <h4 className="text-lg font-semibold mb-3">What I built</h4>
                         <ul className="space-y-2">
                           {project.highlights.map((highlight, idx) => (
                             <li key={idx} className="flex items-start gap-3">
@@ -308,7 +308,7 @@ function App() {
                       </div>
 
                       <div>
-                        <h4 className="text-lg font-semibold mb-3">Technologies Used</h4>
+                        <h4 className="text-lg font-semibold mb-3">Technologies</h4>
                         <div className="flex flex-wrap gap-2">
                           {project.tech.map((tech, idx) => (
                             <span key={idx} className="px-3 py-1 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 text-sm rounded-full">
@@ -319,7 +319,7 @@ function App() {
                       </div>
 
                       <div className="flex gap-4 pt-4">
-                        <button className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
+                        <button className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105">
                           <EyeIcon className="w-5 h-5" />
                           View Project
                         </button>
@@ -341,11 +341,11 @@ function App() {
       <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Skills & Expertise
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              Skills
             </h2>
             <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto">
-              A comprehensive toolkit for building modern, scalable applications
+              Technologies and tools I use to build things
             </p>
           </div>
 
@@ -372,17 +372,17 @@ function App() {
       <section id="education" className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-neutral-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               Education
             </h2>
             <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto">
-              Academic foundation and continuous learning journey
+              My academic background
             </p>
           </div>
 
           <div className="space-y-8">
             {education.map((edu, index) => (
-              <div key={index} className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-neutral-800 dark:to-neutral-700 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-700">
+              <div key={index} className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-neutral-800 dark:to-neutral-700 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-700">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <h3 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100">
                     {edu.institution}
@@ -428,11 +428,11 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Let's Connect
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            Get in touch
           </h2>
           <p className="text-xl text-neutral-600 dark:text-neutral-300 mb-12 max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, collaborations, or just having a great conversation about technology.
+            I'm always interested in new opportunities and interesting projects.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -480,7 +480,7 @@ function App() {
         </div>
       </footer>
 
-      {/* Smooth scrolling and animations */}
+      {/* Smooth scrolling */}
       <style>{`
         html {
           scroll-behavior: smooth;
